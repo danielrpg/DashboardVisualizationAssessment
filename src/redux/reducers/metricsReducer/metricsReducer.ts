@@ -1,5 +1,5 @@
 import { MetricTypes } from '../../actionTypes/metricsTypes';
-import { MetricsActions, MetricsState } from '../../types/types';
+import { MetricsActions, MetricsState } from '../../types/metricsTypes';
 
 const initialState: MetricsState = {
   pending: false,

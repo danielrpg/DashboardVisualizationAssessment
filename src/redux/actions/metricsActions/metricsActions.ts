@@ -5,7 +5,7 @@ import {
   FetchMetricsRequest,
   FetchMetricsSuccess,
   FetchMetricsSuccessPayload,
-} from '../../types/types';
+} from '../../types/metricsTypes';
 
 export const fetchMetricsRequest = (): FetchMetricsRequest => ({
   type: MetricTypes.FETCH_METRIC_REQUEST,
